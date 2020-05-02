@@ -1,0 +1,29 @@
+{
+    "beegoConfig": {
+        "appname": "Content",
+        "copyrequestbody": true,
+        "enablegzip": true,
+        "maxMemory": 65536,
+        "runmode": "dev",
+        "listen": {
+            "httpport": 8441,
+            "enablehttp": true,
+            "enableadmin": true,
+            "adminport": 8442
+        },
+        "webconfig": {
+            "enabledocs": true,
+            "autorender": false,
+            "staticdir": {}
+        },
+        "log": {
+            "accesslogs": true
+        }
+    },
+    "appConfig": {
+        "databaseConfig": {
+            "connectionString": "localhost",
+            "databaseName": "articles-mongo"
+        }
+    }
+}
